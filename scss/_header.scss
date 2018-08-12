@@ -1,0 +1,22 @@
+.header {
+    font-family: $font-family-j;
+
+    &__title {
+        margin-top: 0;
+
+        font-size: 48px;
+        font-weight: 700;
+        text-transform: uppercase;
+
+        margin-bottom: 15px;
+    }
+
+    &__description {
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 1;
+        
+        margin-top: 0;
+        margin-bottom: 50px;
+    }
+}

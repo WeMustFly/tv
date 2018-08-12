@@ -1,0 +1,54 @@
+.step {
+    color: #5474fd;
+    position: relative;
+    padding-top: 110px;
+
+    &__icon {
+        position: absolute;
+        left: 50%;
+        margin-left: -48px;
+        margin-top: -110px;
+        color: inherit;
+        border-radius: 50%;
+        background-color: #333333;
+        width: 96px;
+        height: 96px;
+        line-height: 1;
+        padding-top: 20px;
+        font-size: 58px;
+        z-index: 2;
+    }
+
+    &__text {
+        font-family: $font-family-a;
+        color: #e8e8e8;
+        font-size: 36px;
+        font-weight: 400;
+    }
+
+    &--center {
+        margin: 0 170px;
+        color: #ff6363;
+
+        &::before,
+        &::after {
+            content: "";
+            position: absolute;
+            border-top: 1px dotted $color;
+            opacity: 0.5;
+            width: 380px;
+            height: 96px;
+            border-radius: 50%;
+            top: -10px;
+            z-index: 0;
+        }
+
+        &::before {
+            margin-left: -380px;
+        }
+
+        &::after {
+            margin-left: 0px;
+        }
+    }
+}

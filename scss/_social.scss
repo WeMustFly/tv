@@ -1,0 +1,12 @@
+.social {
+
+    &__item {
+        font-size: 16px;
+        color: $color;
+        margin: 0 10px;
+
+        &--linkedin {
+            color: #5474fd;
+        }
+    }
+}

@@ -1,0 +1,7 @@
+.nav {
+    @include width100($min-width);
+
+    background-color: #5474fd;
+    height: 80px;
+    padding-top: 35px;
+}

@@ -1,0 +1,23 @@
+.footer {
+    @include width100($min-width);
+    padding-top: 120px;
+    padding-bottom: 50px;
+
+    background-color: $bckg-color;
+
+    font-family: $font-family-j;
+    color: $color;
+    text-align: center;
+
+    &__title {
+        font-size: 24px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    &__description {
+        font-size: 16px;
+        font-weight: 400;
+        margin-bottom: 30px;
+    }
+}

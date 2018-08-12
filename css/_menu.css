@@ -1,0 +1,5 @@
+.menu {
+  list-style: none;
+  float: right; }
+  .menu__item {
+    float: left; }

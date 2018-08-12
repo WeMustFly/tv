@@ -1,0 +1,9 @@
+.scroll {
+  position: relative;
+  margin-bottom: 249px; }
+  .scroll::after {
+    position: absolute;
+    content: "\e688";
+    font-family: 'Pe-icon-7-stroke';
+    margin: 0 auto;
+    bottom: -15px; }
